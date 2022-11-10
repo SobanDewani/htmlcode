@@ -1,0 +1,25 @@
+let userName = prompt("enter your name");
+let userPassword = prompt("enter your password ");
+if (userName == "sardar" || userPassword == "uzair") {
+    let p = document.getElementById('para').innerText += " "+userName;
+}else{
+    let p = document.getElementById('para').innerText = "chalo bhai"
+}
+
+
+let userPercentage = prompt("enter your percentage");
+if (userPercentage >= "80" ) {
+    let p = document.getElementById('para').innerText += " A+";
+}else if (userPercentage >= "70") {
+    let p = document.getElementById('para').innerText += " A";
+}else if (userPercentage >= "60") {
+    let p = document.getElementById('para').innerText += " B";
+}else if (userPercentage >= "50") {
+    let p = document.getElementById('para').innerText += " C";
+}else if (userPercentage >= 40) {
+    let p = document.getElementById('para').innerText += " D";
+}else if (userPercentage >= "30") {
+    let p = document.getElementById('para').innerText = " hamara tum se koi wasta hi ni hai";
+}else{
+    let p = document.getElementById('para').innerText = " FAIL";
+}

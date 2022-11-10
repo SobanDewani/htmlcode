@@ -1,0 +1,8 @@
+/* .hv ul li{
+    display: grid;
+} */
+@media screen and (max-width: 600px) {
+.hv ul li{
+    display: grid;
+}
+}
